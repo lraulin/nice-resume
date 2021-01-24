@@ -82,7 +82,7 @@
     "skills": [
       { "name": "Python", "level": "60%" },
       { "name": "ReactJs", "level": "60%" },
-      { "name": "JAVA", "level": "40%" }
+      { "name": "JAVA", "level": "40%" },
       { "name": "C#", "level": "40%" }
     ]
   },
