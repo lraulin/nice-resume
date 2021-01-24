@@ -1,7 +1,7 @@
 {
   "main": {
     "name": "Lee M. Raulin",
-    "description": "I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "description": "Web developer specializing in JavaScript (React, Node, Express) and Python. I use code to solve problems.",
     "image": "profilepic.jpg",
     "bio": [
       "After a previous life as an English teacher in Korea, a stint in the Coast Guard, and an Master's in psychology, I finally found my calling as a programmer.",
@@ -11,7 +11,7 @@
       "My personality could be described as dopaminergic. My brain is ravenous and restless. I've sometimes felt as if I want to devour the world.",
       "I am fascinated by psychology and neuroscience, especially their practical relevance for self-understanding and better living. I keep my body and brain and healthy with light hygeine, self-generated optic flow (ie walking and running), calisthenics, club swinging, yoga, breathwork, and daily ice baths in the Chesapeake Bay."
     ],
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "contactmessage": "Get in touch!",
     "email": "leeraulin@gmail.com",
     "phone": "(443) 684-8939",
     "github": "https://github.com/lraulin",
@@ -43,12 +43,12 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage": "",
     "education": [
       {
-        "school": "Northcentral University?",
+        "school": "Northcentral University",
         "degree": "Masters in Psychology",
-        "graduated": "2013",
+        "graduated": "November 2013",
         "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
@@ -63,7 +63,7 @@
         "company": "Snapnurse",
         "title": "Booker",
         "years": "November 2020 - Present",
-        "description": "Although not a dev job, my skills have been in high demand. I created a React/Python/Flask webapp to help my team calculate holiday pay adjustments and to identify timecards needing admin approval. It is used by myself and several of my coworkers to speed our work on a daily basis. I have been developing my Pandas skills to perform data cleaning on spreadsheets. And I created my own React front end that uses's the company's backend API, in order to prototype UI enhancements that will save time and reduce errors for my team."
+        "description": "Doing my part during COVID by helping nurses on the front lines get paid. Although my official job is approving timesheets, my programming skills have been in high demand. I created a React/Python/Flask webapp to help my team calculate holiday pay adjustments and to identify timecards needing admin approval. It is used by myself and several of my coworkers to speed our work on a daily basis. I have been developing my Pandas skills to perform data cleaning on spreadsheets. And I created my own React front end that uses's the company's backend API, in order to prototype UI enhancements that will save time and reduce errors for my team."
       },
       {
         "company": "Smoothstack",

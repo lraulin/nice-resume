@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useState } from 'react';
+import FormSpree from './FormSpree';
 
 const Contact = ({ data }) => {
   const {
@@ -6,7 +7,7 @@ const Contact = ({ data }) => {
     address: { street, city, state, zip },
     phone,
     email,
-    contactMessage: message,
+    contactMessage,
   } = data;
 
   return (
@@ -19,13 +20,14 @@ const Contact = ({ data }) => {
         </div>
 
         <div className="ten columns">
-          <p className="lead">{message}</p>
+          <p className="lead">{contactMessage}</p>
         </div>
       </div>
 
       <div className="row">
         <div className="eight columns">
-          <form action="" method="post" id="contactForm" name="contactForm">
+          <FormSpree />
+          {/* <form action="" method="post" id="contactForm" name="contactForm">
             <fieldset>
               <div>
                 <label htmlFor="contactName">
@@ -37,7 +39,8 @@ const Contact = ({ data }) => {
                   size="35"
                   id="contactName"
                   name="contactName"
-                  onChange={this.handleChange}
+                  value={contactName}
+                  onChange={(e) => setContactName(e.target.value)}
                 />
               </div>
 
@@ -51,7 +54,8 @@ const Contact = ({ data }) => {
                   size="35"
                   id="contactEmail"
                   name="contactEmail"
-                  onChange={this.handleChange}
+                  value={contactEmail}
+                  onChange={(e) => setContactEmail(e.target.value)}
                 />
               </div>
 
@@ -63,7 +67,8 @@ const Contact = ({ data }) => {
                   size="35"
                   id="contactSubject"
                   name="contactSubject"
-                  onChange={this.handleChange}
+                  value={contactSubject}
+                  onChange={(e) => setContactSubject(e.target.value)}
                 />
               </div>
 
@@ -76,6 +81,8 @@ const Contact = ({ data }) => {
                   rows="15"
                   id="contactMessage"
                   name="contactMessage"
+                  value={contactMessage}
+                  onChange={(e) => setContactMessage(e.target.value)}
                 ></textarea>
               </div>
 
@@ -87,6 +94,7 @@ const Contact = ({ data }) => {
               </div>
             </fieldset>
           </form>
+*/}
 
           <div id="message-warning"> Error boy</div>
           <div id="message-success">
