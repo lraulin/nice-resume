@@ -11,6 +11,8 @@ const About = ({ data }) => {
   } = data;
   const profilepic = 'images/' + data.image;
 
+  console.log(resumeDownload);
+
   return (
     <section id="about">
       <div className="row">
