@@ -15,16 +15,14 @@ const About = ({ data }) => {
     <section id="about">
       <div className="row">
         <div className="three columns">
-          <img
-            className="profile-pic"
-            src={profilepic}
-            alt="Nordic Giant Profile Pic"
-          />
+          <img className="profile-pic" src={profilepic} alt="Profile Pic" />
         </div>
         <div className="nine columns main-col">
           <h2>About Me</h2>
 
-          <p>{bio}</p>
+          {bio.map((p) => (
+            <p>{p}</p>
+          ))}
           <div className="row">
             <div className="columns contact-details">
               <h2>Contact Details</h2>
@@ -32,9 +30,7 @@ const About = ({ data }) => {
                 <span>{name}</span>
                 <br />
                 <span>
-                  {street}
-                  <br />
-                  {city} {state}, {zip}
+                  {city}, {state}
                 </span>
                 <br />
                 <span>{phone}</span>
