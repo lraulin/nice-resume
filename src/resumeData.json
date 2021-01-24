@@ -60,16 +60,23 @@
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Snapnurse",
+        "title": "Booker",
+        "years": "November 2020 - Present",
+        "description": "Although not a dev job, my skills have been in high demand. I created a React/Python/Flask webapp to help my team calculate holiday pay adjustments and to identify timecards needing admin approval. It is used by myself and several of my coworkers to speed our work on a daily basis. I have been developing my Pandas skills to perform data cleaning on spreadsheets. And I created my own React front end that uses's the company's backend API, in order to prototype UI enhancements that will save time and reduce errors for my team."
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Smoothstack",
+        "title": "Software Engineer",
+        "years": "December 2019 - September 2020",
+        "description": "Trained in developing microservices with Java Spring Boot, React/Angular, CI/CD with Jenkins. Furloughed due to COVID."
+      },
+
+      {
+        "company": "Workforce Opportunity Services (contractor at US Department of Transportation)",
+        "title": "Full Stack Web Developer",
+        "years": "September 2018 - September 2019",
+        "description": ""
       }
     ],
     "skills": [
