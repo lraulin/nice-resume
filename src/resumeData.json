@@ -84,13 +84,37 @@
       }
     ],
     "skills": [
-      { "name": "Python", "level": "60%" },
-      { "name": "ReactJs", "level": "60%" },
+      { "name": "JavaScript", "level": "90%" },
+      { "name": "ReactJs", "level": "80%" },
+      { "name": "NodeJS", "level": "75%" },
+      { "name": "Python", "level": "70%" },
       { "name": "JAVA", "level": "40%" },
       { "name": "C#", "level": "40%" }
     ]
   },
   "portfolio": {
-    "projects": []
+    "projects": [
+      {
+        "title": "Incident Report Map",
+        "problem": "Boss had a pilot project he created for the Office of Crisis Management, which used the Twitter API to find reports of transportation-related incidents and plot them on a map, with markers filterable by date, category, etc. The code was outdated and the database was inaccessible, so he asked if I could rebuild it.",
+        "solution": "Rebuilt app from scratch using a PERN stack (PostgreSQL, Express, React, Node).",
+        "outcome": "App worked with full functionality of original. I submitted a budget proposal for deployment to AWS, which was accepted, but my contract ended before we were approved to proceed to deployment.",
+        "githubURL": ""
+      },
+      {
+        "title": "DNS Monitoring",
+        "problem": "Hundreds of DNS servers needed to be checked daily for record modifications, which might indicate malicious tampering, in compliance with security policy. Coworkers in the cyber-security department asked for my help in creating a script.",
+        "solution": "Wrote a script with NodeJS to execute dig command, parse and store the result, and compare the result to previous run. Deployed to server to execute hourly via cron, and send a consolidated report once per day.",
+        "outcome": "Script worked as intended. Cyber Security team was pleased. Script could still be running daily as far as I know.",
+        "githubURL": ""
+      },
+      {
+        "title": "Holiday Pay",
+        "problem": "Boss asked for script to calculate holiday pay adjustments, but boss is not a programmer.",
+        "solution": "Created Python script to calculate holiday pay adjustments. Turned into web app to make easier to use, by deploying script as Flask app, and creating React front end to upload input CSV and display output.",
+        "outcome": "Enabled team to enter holiday pay adjustments in less time with fewer errors. Added features to assist with daily tasks (display list of entries requiring super admin approval), Several coworkers and I continue to use it daily to speed our workflow.",
+        "githubURL": ""
+      }
+    ]
   }
 }
