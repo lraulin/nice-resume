@@ -2,3 +2,11 @@ h4 {
   display: inline;
   margin-right: 1em;
 }
+
+p {
+  margin-bottom: 0.5em;
+}
+
+section {
+  margin-bottom: 2em;
+}
